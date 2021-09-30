@@ -1,0 +1,77 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  author:
+    type: page
+    label: Author
+    folder: _authors
+    match: '*'
+    fields:
+      - type: string
+        name: short_name
+        label: Short Name
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: name
+        label: Name
+      - type: string
+        name: position
+        label: Position
+      - type: string
+        name: description
+        label: Description
+      - type: image
+        name: avatar
+        label: Avatar
+      - type: string
+        name: website
+        label: Website
+      - type: string
+        name: facebook
+        label: Facebook
+      - type: string
+        name: twitter
+        label: Twitter
+      - type: string
+        name: github
+        label: Github
+      - type: string
+        name: gitlab
+        label: Gitlab
+      - type: string
+        name: instagram
+        label: Instagram
+      - type: string
+        name: linkedin
+        label: Linkedin
+      - type: string
+        name: medium
+        label: Medium
+      - type: string
+        name: stack_overflow
+        label: Stack Overflow
+  post:
+    type: page
+    label: Post
+    folder: _posts
+    match: '*'
+    fields: []
+  page_1:
+    type: page
+    label: Page 1
+    match: '*'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: description
+        label: Description
